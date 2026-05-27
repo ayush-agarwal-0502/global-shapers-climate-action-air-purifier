@@ -4,6 +4,8 @@ Documentation for Air purifier project
 
 This project is under Global Shapers (WEF Affiliated) , Climate Action team. Currently being worked upon by the Global Shapers New Delhi hub (GSND).
 
+I'm Ayush Agarwal, 2 months volunteer to Global shapers for this project, and I hope that this documentation serves well for the next person that inherits the project after me. Good luck on this project ! I have given very very detailed explanation of the decision making behind the project, the files etc. 
+
 # Mission Statement – 
 To make clean and healthy air accessible, and improve public health, through affordable, community-driven technology. 
 
@@ -91,5 +93,18 @@ Type POLYGON GND in the command line (top side white textbox), and draw rectangl
 
 
 
+# Manufacturing - 
 
+Manufacturing is a different beast in itself, I'll keep adding insights here - 
+
+Firstly, we have to look for PCB Manufacturers. 
+We dont look for just PCB manufacturers, rather, the correct industry term is PCB turnkey manufacturers, or PCBA (PCB assembly). 
+Since we as a social impact group do not have the liberty to hire someone full time to solder components, it is essential that the female connectors, vooltage regulator, barrel jack etc come pre soldered onto the PCB. 
+
+PCBWay is popular, however it is China based, thus additional costs in taxes due to border crossing, therefore I did not go for it. Moreover, "Made in India" would be better. 
+
+I found 2 nice manufactureres - Lion Circuits and PCBPower
+
+The manufacturers would require the Gerber Files, and the other files that EagleCAD already produces. 
+Additionally, MPN (Manufacturer Part Number) is required for all the components that need to be soldered upon the PCB, these can be verified properly from Mouser Website. 
 
