@@ -111,3 +111,5 @@ Additionally, MPN (Manufacturer Part Number) is required for all the components 
 
 In manufacturing, we have a concept of MOQ (Minimum Order Quantity). Most manufactureres wont manufacture below 5 pcbs at a time. Also, producing lesser pcbs has high cost per pcb, whereas when we produce at large scale, the cost per pcb decreases significantly. 
 
+Additionally, we have to source the parts (Gaming Fan, NodeMCU ESP32, AQI sensor etc) so that we can order easily when we reach production. 
+
