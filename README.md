@@ -118,3 +118,11 @@ Additionally, we have to source the parts (Gaming Fan, NodeMCU ESP32, AQI sensor
 <img width="500" height="98" alt="image" src="https://github.com/user-attachments/assets/0757c0a9-482e-47aa-9bea-fe500840e2d4" />
 
 
+LionCircuits for 5 PCBs - 
+
+
+<img width="533" height="197" alt="image" src="https://github.com/user-attachments/assets/c6737581-9316-4f64-b977-71113086c6f5" />
+
+<img width="248" height="344" alt="image" src="https://github.com/user-attachments/assets/1795f218-abe4-4efe-95ad-4449a67e5b95" />
+
+[Note - the 19 pin array needs to be manually negotiated, while the website only allows me specific MPN, so I had to put an expensive brand which is driving up the cost, however practically the manufacturer can easily find cheaper alternatives locally (whose MPN we cannot find) ]
