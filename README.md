@@ -50,6 +50,8 @@ Simple understanding of the system would be that the AQI sensor would measure th
 
 **Providing intuition for the circuit diagram –** 
 
+<img width="1291" height="737" alt="Final_schematic_diagram" src="https://github.com/user-attachments/assets/0d7120c7-53d5-4289-8ba6-aa4d2de15470" />
+
 
 We are using an Adapter (a device which looks like a phone charger, takes in 220V AC, the voltage commonly available in Indian homes, and converts it to 12V DC, accessible via a cylindrical pin). 
 (Future version of it might explore being able to run the system using phone chargers and USB port, however phone chargers typically give out 5V, which was insufficient to run Gaming fans at high speed)
@@ -93,7 +95,7 @@ Type POLYGON GND in the command line (top side white textbox), and draw rectangl
 
 
 
-# Manufacturing - 
+# Manufacturing and Supply Chain design - 
 
 Manufacturing is a different beast in itself, I'll keep adding insights here - 
 
@@ -103,7 +105,7 @@ Since we as a social impact group do not have the liberty to hire someone full t
 
 PCBWay is popular, however it is China based, thus additional costs in taxes due to border crossing, therefore I did not go for it. Moreover, "Made in India" would be better. 
 
-I found 2 nice manufactureres - Lion Circuits and PCBPower
+I found 2 nice manufactureres - Lion Circuits and PCBPower. Finally we went with LionCircuits as the quote was far lower. 
 
 The manufacturers would require the Gerber Files, and the other files that EagleCAD already produces. 
 Additionally, MPN (Manufacturer Part Number) is required for all the components that need to be soldered upon the PCB, these can be verified properly from Mouser Website. 
@@ -112,4 +114,7 @@ Additionally, MPN (Manufacturer Part Number) is required for all the components 
 In manufacturing, we have a concept of MOQ (Minimum Order Quantity). Most manufactureres wont manufacture below 5 pcbs at a time. Also, producing lesser pcbs has high cost per pcb, whereas when we produce at large scale, the cost per pcb decreases significantly. 
 
 Additionally, we have to source the parts (Gaming Fan, NodeMCU ESP32, AQI sensor etc) so that we can order easily when we reach production. 
+
+<img width="500" height="98" alt="image" src="https://github.com/user-attachments/assets/0757c0a9-482e-47aa-9bea-fe500840e2d4" />
+
 
